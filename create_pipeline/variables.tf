@@ -34,7 +34,7 @@ variable "container_port" {
 }
 
 variable "ACCOUNT_ID" {
-
+  default     = 574628753332
 }
 
 variable "vpc_default_id" {
