@@ -47,7 +47,8 @@ variable "container_name" {
 
 variable "ecs_image_ami" {
   type    = string
-  default = "ami-072aaf1b030a33b6e"
+  # default = "ami-072aaf1b030a33b6e"
+  default = "ami-03f65b8614a860c29"
   # run the following command to get the image ami for your region
   # aws ssm get-parameters --names /aws/service/ecs/optimized-ami/amazon-linux-2/recommended
 }
